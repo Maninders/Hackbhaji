@@ -1,0 +1,723 @@
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* line 1, ../sass/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_normalize.scss */
+audio, canvas, video {
+  display: inline-block;
+}
+
+/* line 1, ../sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 1, ../sass/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 1, ../sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+a {
+  background: 0 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 1, ../sass/_normalize.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 1, ../sass/_normalize.scss */
+b, strong {
+  font-weight: 700;
+}
+
+/* line 1, ../sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 1, ../sass/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 1, ../sass/_normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace,serif;
+  font-size: 1em;
+}
+
+/* line 1, ../sass/_normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 1, ../sass/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 1, ../sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 1, ../sass/_normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 1, ../sass/_normalize.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 1, ../sass/_normalize.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 1, ../sass/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 1, ../sass/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+/* line 1, ../sass/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+/* line 1, ../sass/_normalize.scss */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 1, ../sass/_normalize.scss */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 1, ../sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 3, ../sass/_transitions.scss */
+.animated {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+/* line 14, ../sass/_transitions.scss */
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/* line 18, ../sass/_transitions.scss */
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+/* line 22, ../sass/_transitions.scss */
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+@-webkit-keyframes fadeIn {
+  /* line 32, ../sass/_transitions.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 33, ../sass/_transitions.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* line 36, ../sass/_transitions.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 37, ../sass/_transitions.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  /* line 41, ../sass/_transitions.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 42, ../sass/_transitions.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  /* line 45, ../sass/_transitions.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 46, ../sass/_transitions.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes bounceIn {
+  /* line 51, ../sass/_transitions.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.1);
+  }
+
+  /* line 55, ../sass/_transitions.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bounceIn {
+  /* line 62, ../sass/_transitions.scss */
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+
+  /* line 66, ../sass/_transitions.scss */
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* line 6, ../sass/_custom.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 10, ../sass/_custom.scss */
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* line 11, ../sass/_custom.scss */
+img, object, embed, video {
+  max-width: 100%;
+}
+
+/* line 14, ../sass/_custom.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 17, ../sass/_custom.scss */
+.cl {
+  clear: both;
+}
+
+/* line 19, ../sass/_custom.scss */
+.gridContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1366px;
+  min-width: 320px;
+}
+
+/* line 27, ../sass/_custom.scss */
+header {
+  min-height: 107px;
+  height: auto;
+  background: #34d1c6;
+}
+/* line 31, ../sass/_custom.scss */
+header .logo {
+  padding: 40px 0 20px 22px;
+  display: inline-block;
+}
+/* line 35, ../sass/_custom.scss */
+header nav {
+  float: right;
+  margin: 60px 0 0;
+  width: auto;
+  font-size: 1em;
+}
+@media screen and (max-width: 600px) {
+  /* line 35, ../sass/_custom.scss */
+  header nav {
+    width: 100%;
+  }
+}
+/* line 43, ../sass/_custom.scss */
+header nav li {
+  list-style-type: none;
+  display: inline;
+  color: white;
+  font-weight: bold;
+  padding: 0 1.6em;
+}
+@media screen and (max-width: 600px) {
+  /* line 43, ../sass/_custom.scss */
+  header nav li {
+    display: block;
+  }
+}
+/* line 52, ../sass/_custom.scss */
+header nav li a {
+  color: white;
+  text-decoration: none;
+}
+/* line 58, ../sass/_custom.scss */
+header .social {
+  padding: 60px 22px 0;
+  float: right;
+}
+@media screen and (max-width: 768px) {
+  /* line 58, ../sass/_custom.scss */
+  header .social {
+    display: none;
+  }
+}
+/* line 64, ../sass/_custom.scss */
+header .social li {
+  display: inline;
+}
+/* line 66, ../sass/_custom.scss */
+header .social li .facebook_icons {
+  padding: 3px 9px;
+  background: #5291bd;
+}
+/* line 70, ../sass/_custom.scss */
+header .social li .tweeter_icons {
+  padding: 4px 7px;
+  background: #53c1dd;
+}
+/* line 74, ../sass/_custom.scss */
+header .social li .rss_icons {
+  padding: 3px 8px;
+  background: #f6b14a;
+}
+/* line 78, ../sass/_custom.scss */
+header .social li .pinterest_icons {
+  padding: 3px 6px;
+  background: #d85557;
+}
+/* line 82, ../sass/_custom.scss */
+header .social li a {
+  color: white;
+  border-radius: 15px;
+}
+
+/* line 90, ../sass/_custom.scss */
+.banner {
+  position: relative;
+  width: 100%;
+}
+/* line 93, ../sass/_custom.scss */
+.banner .logo_banner {
+  position: absolute;
+  bottom: -50px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 101, ../sass/_custom.scss */
+.conetnt_box {
+  margin: 6em 1em 0;
+}
+
+/* line 103, ../sass/_custom.scss */
+.brand {
+  margin: auto;
+  text-align: center;
+}
+/* line 106, ../sass/_custom.scss */
+.brand h1 {
+  color: #7e7774;
+}
+
+/* line 115, ../sass/_custom.scss */
+.work_section li {
+  float: left;
+  list-style-type: none;
+  margin: 0.65em;
+  width: 31.5%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  /* line 115, ../sass/_custom.scss */
+  .work_section li {
+    width: 100%;
+    margin: .5em 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  /* line 115, ../sass/_custom.scss */
+  .work_section li {
+    width: 30.5%;
+  }
+}
+@media screen and (min-width: 981px) and (max-width: 1024px) {
+  /* line 115, ../sass/_custom.scss */
+  .work_section li {
+    width: 31.2%;
+  }
+}
+/* line 131, ../sass/_custom.scss */
+.work_section li a {
+  overflow: hidden;
+}
+/* line 134, ../sass/_custom.scss */
+.work_section li img {
+  backface-visibility: hidden;
+  position: relative;
+  z-index: 2;
+}
+/* line 139, ../sass/_custom.scss */
+.work_section li img + .hover_text {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition-duration: 200ms;
+  transition-property: opacity;
+  transition-timing-function: linear;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+}
+/* line 154, ../sass/_custom.scss */
+.work_section li a:hover img + .hover_text {
+  opacity: 0.99;
+  background: rgba(52, 209, 198, 0.65);
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+  color: white;
+}
+
+/* line 164, ../sass/_custom.scss */
+.view_button {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 168, ../sass/_custom.scss */
+.view_button button {
+  color: #7e7774;
+  border: medium none;
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight: 700;
+  padding: 10px 30px;
+}
+/* line 175, ../sass/_custom.scss */
+.view_button button:hover {
+  color: #34d1c6;
+}
+
+/* line 181, ../sass/_custom.scss */
+.news_section {
+  padding: 50px 0;
+  color: #34d1c6;
+}
+/* line 184, ../sass/_custom.scss */
+.news_section h2 {
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  width: 60%;
+  border-top: 1px solid #7e7774;
+}
+/* line 191, ../sass/_custom.scss */
+.news_section li {
+  float: left;
+  list-style-type: none;
+  margin: 0.55em;
+  width: 23.4%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  /* line 191, ../sass/_custom.scss */
+  .news_section li {
+    width: 100%;
+    margin: .5em 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  /* line 191, ../sass/_custom.scss */
+  .news_section li {
+    width: 22.7%;
+  }
+}
+@media screen and (min-width: 981px) and (max-width: 1024px) {
+  /* line 191, ../sass/_custom.scss */
+  .news_section li {
+    width: 22.5%;
+  }
+}
+/* line 207, ../sass/_custom.scss */
+.news_section li .news_text {
+  color: #34d1c6;
+  font-weight: 700;
+}
+
+/* line 214, ../sass/_custom.scss */
+footer {
+  clear: both;
+  margin: 30px 0 0;
+  padding: 30px 20px 0;
+  background: #34d1c6;
+  min-height: 300px;
+  height: auto !important;
+  max-height: 600px;
+  color: white;
+}
+/* line 223, ../sass/_custom.scss */
+footer .creative {
+  width: 30%;
+  float: left;
+  margin-right: 20%;
+}
+@media screen and (max-width: 768px) {
+  /* line 223, ../sass/_custom.scss */
+  footer .creative {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* line 231, ../sass/_custom.scss */
+footer .creative .creative_div1 {
+  font-size: 2em;
+}
+/* line 234, ../sass/_custom.scss */
+footer .creative .creative_div2 {
+  font-weight: 700;
+  padding-top: 20px;
+}
+/* line 239, ../sass/_custom.scss */
+footer .connect {
+  width: 23.5%;
+  float: left;
+  margin-right: 1%;
+}
+@media screen and (max-width: 768px) {
+  /* line 239, ../sass/_custom.scss */
+  footer .connect {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* line 247, ../sass/_custom.scss */
+footer .connect .connect_div1 {
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+/* line 251, ../sass/_custom.scss */
+footer .connect .connect_div2 {
+  font-weight: 700;
+  padding-top: 20px;
+}
+/* line 256, ../sass/_custom.scss */
+footer .connect .connect_div4 .social {
+  padding: 25px 0;
+  float: left;
+}
+/* line 259, ../sass/_custom.scss */
+footer .connect .connect_div4 .social li {
+  display: inline;
+  background: white;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 1.5em;
+}
+/* line 265, ../sass/_custom.scss */
+footer .connect .connect_div4 .social li .facebook_icons {
+  padding: 0px 10px;
+}
+/* line 268, ../sass/_custom.scss */
+footer .connect .connect_div4 .social li .tweeter_icons {
+  padding: 0 4px;
+}
+/* line 271, ../sass/_custom.scss */
+footer .connect .connect_div4 .social li .rss_icons {
+  padding: 0px 5px;
+}
+/* line 274, ../sass/_custom.scss */
+footer .connect .connect_div4 .social li .pinterest_icons {
+  padding: 0px 5px;
+}
+/* line 277, ../sass/_custom.scss */
+footer .connect .connect_div4 .social li a {
+  color: #34d1c6;
+}
+/* line 284, ../sass/_custom.scss */
+footer .project_planner {
+  width: 23.5%;
+  float: right;
+  margin-right: 1%;
+}
+@media screen and (max-width: 768px) {
+  /* line 284, ../sass/_custom.scss */
+  footer .project_planner {
+    width: 100%;
+    margin-right: 0;
+    float: left;
+  }
+}
+/* line 293, ../sass/_custom.scss */
+footer .project_planner .project_planner_div1 {
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+/* line 297, ../sass/_custom.scss */
+footer .project_planner .project_planner_div2 {
+  font-weight: 400;
+  padding-top: 20px;
+}
+/* line 301, ../sass/_custom.scss */
+footer .project_planner .project_planner_div3 {
+  font-weight: 400;
+  padding-top: 20px;
+}
+/* line 304, ../sass/_custom.scss */
+footer .project_planner .project_planner_div3 a {
+  background: white;
+  text-align: center;
+  padding: 10px 20px;
+  color: #34d1c6;
+}
+/* line 309, ../sass/_custom.scss */
+footer .project_planner .project_planner_div3 a:hover {
+  color: #7e7774;
+  text-decoration: none;
+}
